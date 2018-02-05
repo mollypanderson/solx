@@ -1,0 +1,1541 @@
+
+
+/** {
+	border: 1px solid gray !important;
+	}*/
+
+* {
+	font-family: 'Assistant', sans-serif, 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	 -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	
+    
+}
+
+
+
+img embed object video div {
+		max-width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0px;
+	
+}
+
+h2 {
+	margin: 0px;
+	max-width: 100%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.5em;
+	color: rgb(70,115,2);
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+h5 {
+	font-size: 2.5em;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+a {
+	color: black;
+	
+}
+
+.solx-link {
+	text-decoration: none;
+	color: white;
+}
+
+.mega-container {
+	
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14pt;
+
+}
+
+.hero-row {
+	background-image: url("photos/olu-eletu-101178.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	background-position: 50% 80%;
+	position: relative;
+	background-attachment: fixed;
+}
+
+
+.header-row-home {
+	display: flex;
+	height: 20%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0)); 
+	max-width: 100%;
+}
+
+.logo-box {
+	padding: 15px;
+}
+
+.solx-logo {
+	width: 85px;
+	height: 85px;
+	max-width: 100%;
+	background-image: url("photos/LogoSolx-cropped.jpg");
+	padding: 20px;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+
+.solx-title {
+	font-size: 1.6em;
+	text-shadow: 0px 0px 6px rgba(70,115,2,0.95);
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 0px;
+	text-decoration: none;
+}
+
+.menu-bar {
+	text-align: right;
+	font-size: 1.1em;
+	width: 80%;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.3);
+	padding-top: 10px;
+	padding-right: 15px;
+
+}
+
+.hero-text {
+	
+    bottom: 0px;
+    font-size: 2.25em;
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient( rgba(0,0,0,0), rgba(0, 0, 0, 0.95)); 
+    padding-left: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    
+}
+
+.intro-row {
+	padding: 10px;
+	max-width: 1000px;
+	font-size: 1.1em;
+	text-align: justify;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: auto;
+
+}
+
+.intro-photo {
+	
+	background-image: url("photos/solar-one.png");
+	background-size: cover;
+	width: 225px;
+	height: 225px;
+	border-radius: 50%;
+
+	
+	
+}
+
+.intro-text-box {
+	padding-top: 50px;
+}
+
+.recent-projects-row {
+
+}
+
+.recent-projects-links {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+
+}
+
+.photo-box {
+	width: 33.33%;
+	margin: 0 auto;
+
+}
+
+.recent-one {
+	background-image: url("photos/snoqualmie_one.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-position: 50% 40%;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.recent-two {
+	background-image: url("photos/kent_one.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-position: 50% 40%;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.recent-three {
+	background-image: url("photos/enumclaw-one-circle.png");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-position: 50% 40%;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.contact-row {
+	width: 100%;
+}
+
+.contact-body-row {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 20px;
+	max-width: 1700px;
+	margin: auto;
+}
+
+.contact-info-box {
+	width: 50%;
+	padding: 10px;
+
+}
+
+.contact-form-box {
+	width: 50%;
+
+}
+
+.footer-row {
+	background-image: url("photos/olu-eletu-101178-footer.jpg");
+	background-position: 20% 20%;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+
+}
+
+.social-media-row {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	
+
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.footer-text-row {
+	line-height: 150%;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.3);
+
+}
+
+.footer-text-item {
+	margin-right: 20px;
+}
+
+
+
+
+.menu-link {
+	margin-right: 20px;
+
+}
+
+.white-link:hover {
+	/*color: #a1a715;*/
+	color: #5A9504;
+}
+
+.white-link {
+	color: white;
+	text-decoration: none;
+}
+
+.solx-corp {
+	font-weight: 300;
+	color: rgb(70,115,2);
+}
+
+.bold-link {
+	font-weight: bold;
+}
+
+.pgh-heading {
+	font-weight: bold;
+	color: rgb(70,115,2);
+}
+
+.link:hover {
+	color: #a1a615;
+}
+
+.thin-line {
+	border-bottom: 1px solid #CFD8CC;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	width: 650px;
+	margin: auto;
+	max-width: 100%;
+}
+
+/*.text-links {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+*/
+
+.rp-text-hyperlink {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.recent-link {
+	width: 33.3%;
+}
+
+.view-more-row {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	
+}
+
+.contact-text-row {
+	
+	max-width: 640px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.contact-heading {
+	font-weight: bold;
+	color: rgb(70,115,2);
+	line-height: 110%;
+}
+
+.contact-title-break {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
+	
+}
+
+.thank-you {
+	text-align: center;
+}
+
+.recent-link-item-one {
+	
+}
+
+.recent-link-item-two {
+	padding-left: 243px;
+	padding-right: 240px;
+}
+
+.recent-link-item-three {
+	
+}
+
+.email {
+	font-weight: 300;
+	color: rgb(70,115,2);
+}
+
+.recent-break {
+	display: block;
+}
+
+
+
+/*contact form*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #acb3ae;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    resize: vertical;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    
+    
+}
+
+input[type=submit] {
+    background-color: #a1a615;
+    color: white;
+    padding: 10px 40px;
+    border: 1px solid #acb3ae;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: inset 0 -1px 5px rgba(0,0,0,0.5),
+    inset 0 1px 5px rgba(255,255,255,0.5);
+    
+}
+
+input[type=submit]:hover {
+    background-color: #909414;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+/*end of contact form*/
+
+
+/*menu hamburger*/
+
+.burger {
+	width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    text-align: right;
+    max-width: 100%;
+    display: none;
+
+}
+
+.menu-hamburger {
+	max-width: 100%;
+	text-align: right;
+	margin: auto;
+	float: right;
+	padding: 10px 20px 0px 0px;
+	
+}
+
+/*end of menu hamburger*/
+
+/*media queries*/
+
+/*high res media queries*/
+
+
+@media screen and (min-width: 1400px) {
+	h2 {
+		font-size: 2.5em;
+
+	}
+
+	h3 {
+		font-size: 2em;
+	}
+
+	
+
+	.solx-logo {
+	width: 125px;
+	height: 125px;
+	}
+
+
+.solx-title {
+	font-size: 2em;
+	
+}
+
+.contact-text-row {
+	
+	max-width: 1000px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.intro-row {
+	padding: 10px;
+	max-width: 1180px;
+	font-size: 1.1em;
+	text-align: justify;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: auto;
+
+}
+
+.header-container-rev {background-position: 50% 50%;}
+	
+}
+
+.header-container-serv {
+	background-position: 50% 50%;
+}
+
+/*end high res*/
+
+@media screen and (max-width: 860px) {
+	.hero-text {
+		font-size: 2em;
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	
+	.hero-row {
+		background-image: url("photos/olu-eletu-101178-ipad.jpg");
+		background-size: cover;
+		height: 640px;
+		color: white;
+		width: 100%;
+		max-width: 100%;
+		background-repeat: no-repeat;
+		position: relative;
+		background-attachment: scroll;
+	}
+
+	.menu-bar {
+		padding: 10px;
+
+	}
+
+	.intro-photo-box {
+	padding: 20px;
+	width: 35%;
+	margin: auto;
+
+	
+	}
+
+	.intro-text-box {
+		width: 65%;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+
+@media screen and (max-width: 888px) {
+	.menu-full {display: none;}
+
+	.burger {
+		display: block;
+
+	}
+}
+
+@media screen and (max-width: 765px) {
+	.contact-info-box {
+	width: 100%;
+	padding: 10px;
+
+	}
+
+	.contact-form-box {
+		width: 100%;
+
+	}
+}
+
+@media screen and (max-width: 730px) {
+	
+	.intro-photo-box {
+	display: none;
+	
+	}
+	
+	.intro-text-box {
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 668px) {
+	.photo-box {
+	width: 100%;
+	padding: 20px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.hero-text {
+		font-size: 1.5em;
+	}
+
+	
+}
+
+@media screen and (max-width: 425px) {
+	.hero-text {
+		font-size: 1.7em;
+	}
+
+	.hero-row {
+		background-image: url("photos/olu-eletu-101178-ipad.jpg");
+		background-size: cover;
+		height: 736px;
+		color: white;
+		width: 100%;
+		max-width: 100%;
+		background-repeat: no-repeat;
+		background-position: 70% 50%;
+		position: relative;
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (max-width: 413px) {
+	.hero-text {
+		font-size: 1.5em;
+	}
+
+	.hero-row {
+		background-image: url("photos/olu-eletu-101178-ipad.jpg");
+		background-size: cover;
+		height: 660px;
+		color: white;
+		width: 100%;
+		max-width: 100%;
+		background-repeat: no-repeat;
+		background-position: 70% 50%;
+		position: relative;
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.hero-text {
+		font-size: 1.5em;
+	}
+
+	.hero-row {
+		background-image: url("photos/olu-eletu-101178-ipad.jpg");
+		background-size: cover;
+		height: 667px;
+		color: white;
+		width: 100%;
+		max-width: 100%;
+		background-repeat: no-repeat;
+		background-position: 70% 50%;
+		position: relative;
+		background-attachment: scroll;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	.hero-text {
+		font-size: 1.5em;
+	}
+
+	.hero-row {
+		background-image: url("photos/olu-eletu-101178-ipad.jpg");
+		background-size: cover;
+		height: 640px;
+		color: white;
+		width: 100%;
+		max-width: 100%;
+		background-repeat: no-repeat;
+		background-position: 70% 50%;
+		position: relative;
+		background-attachment: scroll;
+	}
+}
+
+/* about page */
+
+.header-container-about {
+	background-image: url("photos/mr-marco-614-cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 225px;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	background-position: 50% -5%;
+	position: relative;
+	background-attachment: scroll;
+	margin: auto;
+}
+
+.footer-row-about {
+	background-image: url("photos/mr-marco-614-footer.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+	
+
+}
+
+.about-image {
+	background-image: url("photos/newcastle.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.intro-body {
+	max-width: 1100px;
+	margin: auto;
+	text-align: justify;
+	padding: 10px;
+	
+}
+
+.banner {
+	
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 175px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+	display: table;
+}
+
+.incentives-banner {
+	background-image: url("photos/micah-hallahan-28488.jpg");
+}
+
+.faq-banner {
+	background-image: url("photos/micah-hallahan-27755.jpg");
+	background-position: 50% 70%;
+}
+
+.incentives-body {
+	max-width: 1100px;
+	margin: auto;
+	text-align: justify;
+	padding: 10px;
+
+}
+
+.benefitting {
+	margin: auto;
+	 text-align: center;
+}
+
+.incentives-one-image {
+	background-image: url("photos/helloquence-51716.jpg");
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.incentives-four-image {
+	background-image: url("photos/andreas-gucklhorn-285602.jpg");
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+
+}
+
+.incentives-six-image {
+	
+	background-image: url("photos/rowan-heuvel-60972.jpg");
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-position: 50% 80%;
+}
+
+.incentives-three-image {
+	background-image: url("photos/enumclaw-one-circle.png");
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+
+.faq-body {
+	width: 100%;
+	display: flex;
+	
+}
+
+.faq-one {
+	width: 50%;
+	padding: 10px 20px 10px 10px;
+	text-align: justify;
+	
+}
+
+.faq-two {
+	width: 50%;
+	padding: 10px 10px 10px 20px;
+	text-align: justify;
+
+	
+}
+
+
+.faq-text {
+	display: flex;
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.vertical-line {
+	border-left: 1px solid #CFD8CC;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	
+	
+}
+
+@media screen and (max-width: 766px) {
+
+	.faq-text {
+		display: inline;
+		font-size: .9em;
+	}
+
+	.faq-one {
+		width: 100%;
+		
+	}
+
+	.faq-two {
+		width: 100%;
+		
+	}
+
+	.vertical-line {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+	
+
+	.about-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.intro-body {
+		font-size: .9em;
+	}
+
+	}
+
+/*about page end */
+
+/*services page*/
+/* the end tag "serv" means the class is for the contact page only*/
+
+.header-container-serv {
+	background-image: url("photos/neonbrand-357018-cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 225px;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	background-position: 50% 50%;
+	position: relative;
+	background-attachment: scroll;
+	margin: auto;
+	
+}
+
+.footer-row-serv {
+	background-image: url("photos/neonbrand-357018.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+	
+
+}
+
+.footer-gradient {
+	
+	background: linear-gradient( rgba(0,0,0,0), rgba(0, 0, 0, 0.5));
+	height: 100%;
+
+}
+
+.services-container {
+	padding: 10px;
+	max-width: 1100px;
+	margin: auto;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+.service-one-row {
+	display: flex;
+	
+	
+}
+
+
+.service-image-box {
+	padding: 20px;
+	margin: auto;
+}
+
+.service-one-image {
+	background-image: url("photos/igor-ovsyannykov-219666-cropped.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.service-two-image {
+	background-image: url("photos/h-e-n-g-s-t-r-e-a-m-180108-cropped.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.service-three-image {
+	background-image: url("photos/taduuda-76960-cropped.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.roofing-image {
+	background-image: url("photos/karl-taylor-310352.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.framing-image {
+	background-image: url("photos/dominik-scythe-283327.jpg");
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.service-text {
+	width: 70%;
+
+}
+
+.service-text-padding {
+	padding-top: 10px;
+	width: 70%;
+}
+
+.service-text-padding-heavy {
+	padding-top: 30px;
+	width: 70%;
+}
+
+@media screen and (max-width: 650px) {
+	.service-one-row {
+	
+	flex-wrap: wrap;
+	
+	}
+
+	.service-two-row {
+		flex-wrap: wrap-reverse;
+	}
+
+	.service-one-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.service-two-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.service-three-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.roofing-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.framing-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.service-text {
+		width: 100%;
+	}
+
+	.service-text-padding {
+		width: 100%;
+	}
+
+	.service-text-padding-heavy {
+		width: 100%;
+	}
+}
+
+/*@media screen and (max-width: 450px) {
+	.header-container-serv {
+	background-image: url("photos/neonbrand-357018-mobile.jpg");
+	background-size: 450px;
+	background-repeat: no-repeat;
+	height: 225px;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	background-position: 50% 0%;
+	position: relative;
+	background-attachment: fixed;
+}
+}*/
+
+/*services page end*/
+
+/*recent projects page*/
+
+.header-container-rec {
+	
+	background-image: url("photos/hunter-haley-424256-cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 225px;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	background-position: 50% 0%;
+	position: relative;
+	background-attachment: scroll;
+
+}
+
+.footer-row-rec {
+	background-image: url("photos/hunter-haley-424256-footer.jpg");
+	
+	background-position: 20% 20%;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+}
+
+/*image slideshow*/
+
+.mySlides-three, .mySlides-four, .mySlides-five, .mySlides-six, .mySlides-seven, .mySlides-ten, .mySlides-thirteen {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.w3-height-width {
+	
+	padding: 20px;
+}
+
+/*.snoqualmie-slides {
+	height: 500px;
+	width: auto;
+	max-height: 100%;
+	object-fit: cover;
+	align-content: center;
+}
+
+.snoqualmie-slides img {
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.slides img {
+	
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+
+
+.project-text {
+	text-align: center;
+	font-size: 1em;
+}
+
+
+/*recent projects page end*/
+
+/*reviews page*/
+/* the end tag "rev" means the class is for the reviews page only*/
+
+
+.header-container-rev {
+	
+	background-image: url("photos/mehdi-thomas-boutdarine-425503-cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 225px;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	background-position: 50% 0%;
+	position: relative;
+	background-attachment: scroll;
+	margin: auto;
+
+}
+
+
+.reviews-container {
+	padding: 20px;
+	max-width: 1100px;
+	margin: auto;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+.review-image-box {
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+.review-image-one {
+	background-image: url("photos/bothell-photo-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-two {
+	background-image: url("photos/snoqualmie_one-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-three {
+	background-image: url("photos/burien-patio-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+
+.review-image-four {
+	background-image: url("photos/fall-city-photo-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-five {
+	background-image: url("photos/ballard-roof-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-six {
+	background-image: url("photos/seattle-solar-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-seven {
+	background-image: url("photos/blackdiamond-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-eight {
+	background-image: url("photos/newcastle.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-row-left {
+	display: flex;
+	padding-bottom: 20px;
+	
+	
+	
+}
+
+.review-row-right {
+	display: flex;
+	padding-bottom: 20px;
+
+
+}
+
+.review-text {
+	width: 70%;
+
+}
+
+.review-row-right-six {
+	
+}
+
+.review-text-six {
+	position: relative;
+}
+
+.review-six-special {
+	position: absolute;
+	right: 0;
+}
+
+.signature {
+	padding-left: 100px;
+}
+
+
+@media screen and (max-width: 650px) {
+	.review-row-left {
+	
+	flex-wrap: wrap;
+	
+	}
+
+	.review-row-right {
+		flex-wrap: wrap-reverse;
+	}
+
+	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight {
+		width: 150px;
+		height: 150px;
+	}
+
+	
+
+	.review-text {
+		width: 100%;
+	}
+
+	.review-six-special {
+	position: relative;
+	
+}
+}
+
+.see-more-container {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.read-more-reviews-row {
+	text-align: center;
+}
+
+.reviews-social-row {
+	display: flex;
+	justify-content: center;
+	font-size: .75em;
+}
+
+.review-button-text {
+	text-align: center;
+}
+
+.soc-review-image-box {
+	padding: 30px;
+}
+
+
+
+.buildzoom-image {
+	background-image: url("photos/buildzoom-logo.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.homeadvisor-image {
+	background-image: url("photos/homeadvisor-logo.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.google-image {
+	background-image: url("photos/google-logo.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+.footer-row-rev {
+	background-image: url("photos/mehdi-thomas-boutdarine-425503-footer.jpg");
+	
+	background-position: 20% 20%;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+}
+
+/*reviews page end*/
+
+/* contact page */
+/* the end tag "ct" means the class is for the contact page only*/
+
+.contact-us-title-ct {
+	
+}
+
+.contact-text-row-ct {
+	padding-top: 20px;
+}
+
+.header-row-ct {
+	display: flex;
+	height: 40%;
+	
+	max-width: 100%;
+}
+
+.header-gradient {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0)); 
+	height: 100%;
+}
+
+.header-container-ct {
+	background-image: url("photos/bench-accounting-49025-crop-two.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 225px;
+	color: white;
+	width: 100%;
+	max-width: 100%;
+	background-position: 50% 30%;
+	position: relative;
+	background-attachment: scroll;
+	margin: auto;
+}
+
+.footer-row-ct {
+	background-image: url("photos/bench-accounting-49025-footer.jpg");
+	
+	background-position: 20% 20%;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 0.7em;
+	color: white;
+}
+
+/*contact page end*/
+
+/*dropdown menu*/
+
+/* Style The Dropdown Button */
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: white;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {color: rgb(70,115,2)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*end dropdown*/
+
+/*google map*/
+ #map {
+        height: 300px;
+        width: 100%;
+
+       }
+
+.map-box {
+
+
+}
+/*side navbar */
+
+/* The side navigation menu */
+
+.sidenav {
+	display: none;
+}
+
+@media screen and (max-width: 888px) {
+
+.sidenav {
+	display: block;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{
+    color: rgb(70,115,2);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size)*/
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+/*end side navbar*/
+
+
+

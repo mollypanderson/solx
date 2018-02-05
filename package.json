@@ -1,0 +1,11 @@
+{
+ "name": "solxsitetest",
+ "description": "Basic Express.js/Heroku demo",
+ "version": "0.0.1",
+ "private": true,
+ "dependencies": {
+  "express": "3.x",
+  "jquery": "^3.3.1",
+  "nodemailer": "4.x"
+ }
+}
