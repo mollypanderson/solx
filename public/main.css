@@ -308,6 +308,10 @@ a {
 	color: rgb(70,115,2);
 }
 
+.pgh-heading-black {
+	font-weight: bold;
+}
+
 .link:hover {
 	color: #a1a615;
 }
@@ -768,7 +772,7 @@ input[type=submit]:hover {
 
 }
 
-.benefitting {
+.pgh-heading-centered {
 	margin: auto;
 	 text-align: center;
 }
@@ -846,6 +850,14 @@ input[type=submit]:hover {
 	
 }
 
+.about-text {
+	padding-top: 40px;
+}
+
+.incentives-text {
+	padding-top: 30px;
+}
+
 @media screen and (max-width: 766px) {
 
 	.faq-text {
@@ -879,6 +891,14 @@ input[type=submit]:hover {
 
 	.intro-body {
 		font-size: .9em;
+	}
+
+	.about-text {
+	padding-top: 0px;
+	}
+
+	.incentives-text {
+	padding-top: 0px;
 	}
 
 	}
@@ -983,6 +1003,7 @@ input[type=submit]:hover {
 	height: 250px;
 	border-radius: 50%;
 }
+
 
 .service-text {
 	width: 70%;
