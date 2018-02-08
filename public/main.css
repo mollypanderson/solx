@@ -1268,6 +1268,14 @@ input[type=submit]:hover {
 	border-radius: 50%;
 }
 
+.review-image-nine {
+	background-image: url("photos/kent_one-circle.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
 .review-row-left {
 	display: flex;
 	padding-bottom: 20px;
@@ -1317,7 +1325,7 @@ input[type=submit]:hover {
 		flex-wrap: wrap-reverse;
 	}
 
-	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight {
+	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight, .review-image-nine {
 		width: 150px;
 		height: 150px;
 	}
