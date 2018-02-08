@@ -1,8 +1,8 @@
 
 
-/** {
-	border: 1px solid gray !important;
-	}*/
+* {
+	/*border: 1px solid gray !important;*/
+	}
 
 * {
 	font-family: 'Assistant', sans-serif, 'Source Sans Pro', sans-serif;
@@ -762,6 +762,12 @@ input[type=submit]:hover {
 .faq-banner {
 	background-image: url("photos/micah-hallahan-27755.jpg");
 	background-position: 50% 70%;
+}
+
+.faq-coming-soon {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
 }
 
 .incentives-body {

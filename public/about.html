@@ -23,9 +23,12 @@
 
 <body>
 	<div class="mega-container">
+
+	<!-- header -->
 		<div class="header-container-about">
 			<div class="header-gradient">
 
+				<!-- side navidation -->
 				<div id="mySidenav" class="sidenav">
 							  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 							  <a href="index.html">Home</a>
@@ -69,6 +72,7 @@
 
 					</span>
 
+					<!-- normal header menu bar links -->
 						<span class="menu-link"><a href="services.html" class="white-link">Services</a></span>
 						<span class="menu-link"><a href="recent-projects.html" class="white-link">Gallery</a></span>
 						<span class="menu-link"><a href="reviews.html" class="white-link">Reviews</a></span>
@@ -83,6 +87,8 @@
 			</div>
 		</div>
 
+<!-- "about" section -->
+
 		<div class="about-body">
 		<div class="intro-body">
 			<div class="service-one-row">
@@ -95,7 +101,9 @@ in Sammamish, WA is a Solar Installation company, Roofing Company, Licensed   El
 				</div>
 			</div>
 		</div>
-		
+
+<!-- incentives section -->		
+
 		<div id="incentives"></div>
 		<div class="banner incentives-banner"><h5>- Incentives -</h5></div>
 		<div class="incentives-body">
@@ -182,37 +190,20 @@ about $6700.00 including sales tax. A battery backup system is about $9,000.00, 
 		</div>
 </div></div>
 
+<!-- FAQ section -->
+
 		<div id="faq"></div>
 		<div class="banner faq-banner"><h5>- Frequently Asked Questions -</h5></div>
-		<div class="faq-body">
+		<!-- add the class 'faq-body' to the below div when you want FAQs back-->
+		<div class="pgh-heading-centered">
 			
+<!-- add class'faq text' to the div below -->
+			<div class="faq-coming-soon pgh-heading pgh-heading-centered">FAQ coming soon!</div>
 
-			<div class="faq-text">
-	<div class="faq-one"><span class="pgh-heading">Why would you match a 280 watt solar panel with a micro-inverter that can only output 250 watts?</span><br>
-<p>Each of the two inputs on the APS/Blue Frog micro-inverter are designed to accept up to 305 watts DC input, but will only output 250 watts AC. If there were a combined conversion/line loss of about 15%, the micro-inverter should be able to handle a 295 watt panel without clipping off any significant wattage (since 295 watts minus 15% or 44.25 watts = 250.75 watts).</p>
-
-<p>However, the truth is that there are at least a few moments during the course of a year where there might be little more than a 5% loss. In this instance, a 295 watt module would be pumping 280 watts into a inverter that can theoretically only output 250 watts. In this case, 30 watts would be getting clipped off. It wouldn't hurt the inverter, but raises a question about system design. Would it have been better to install modules with a lower wattage rating (like 260 watt modules)?</p>
-
-<p>It has been theorized by inverter manufactures that an array owner would be better to have 280 watt modules producing all year and clipping a few times during the season, than to have 260 watt modules never clipping, but producing less wattage each all year long. But this is the sort of thing you can expect an inverter manufacturer to say. Ultimately, it comes down to available roof space. If there is limitted space and you are trying to get as many modules as possible on the roof, you would probably do better to have higher wattage per panel and accept some clipping a couple hours a day on some of the sunniest days of the year. However, if you have plenty of roof space and can accomodate over 36 modules, you might be better to choose the lower wattage modules and never have clipping.</p></div>
-
-<div class="vertical-line"></div>
-
-	<div class="faq-two"><span class="pgh-heading">What is the difference between line inverters and micro-inverters?</span><br>
-<p>The short answer is that micro-Inverters handle shade and clouds better, but are more expensive. Here is the long version.</p>
-
-<p>The effectiveness of a solar project hinges on the availability of direct sunlight. Indirect sunlight will produce some minimal results, but real production occurs in direct sunlight. So, our measurements are done with a tool that records and calculates "solar access."  For a home that has clear access with no significant shading, we will typically steer the customer toward a line inverter since it is cheaper. Line inverters are mounted near the electrical panel and conduit is run up to the roof to connect to the solar panels.</p>
-
-<p>However, usually there is a tree or other obstruction that interferes with the sun. If there were "block" shading in the morning or evening, we may still suggest a line inverter. However, if we encounter a scenario where there is "intermittant" shading, we will suggest micro-inverters. This is because shading on a single part of a solar panel will not only reduce the output of that panel, but the output of all modules attached to that panel to that of the lowest performing panel. In a 36 panel installation you would have 3 strings of 12 modules. Thus, shade on one panel in a string of 12 will affect all 12, or 33% of the entire array. If you were to have a tree shade portions of string of panels in the morning with another taking over in the afternoon, and another in the late day, theoretically, one or more strings could suffer reduced ouput the entire day even though only one panel at a time was shaded.</p>
-
-<p>Micro-inverters solve this problem. They allow each module to act independently of the others. Thus, shading on a single panel only effects that panel and none others. This is why we use alot of micro-inverters in Bellevue, the Eastside, and Seattle. APS/Blue Frog micro-inverters mount up underneath the modules. There is one micro-inverter for every two panels.</p>
-
-<p>Micro-inverters have the added benefit of providing monitoring that breaks down production for each individual panel in near real time. Alternately, line inverters only have the capacity to break production down per string (8-13 modules).  Both types of inverters allow for internet monitoring. With micro-inverters it is usually included in the quoted system price automatically. With line inverters, internet monitoring is an optional add-on.</p>
-
-			</div>
-			</div>
 		</div>
 	</div>
 
+<!--footer-->
 		<div class="footer-row-about">
 			<div class="footer-gradient">
 			<div class="social-media-row">
@@ -234,7 +225,7 @@ about $6700.00 including sales tax. A battery backup system is about $9,000.00, 
 
 
 	
-
+<!-- side navigation javascript -->
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -247,6 +238,7 @@ function closeNav() {
 }
 </script>
 
+<!-- header image scroll javascript -->
 <script>
 	$(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
