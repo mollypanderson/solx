@@ -15,12 +15,12 @@ app.get('/', function (req, res) {
     res.sendfile('public/index.html');
 });
 
-app.get('/.well-known/acme-challenge/xoc46L9PGKV3nf7EA8xsEwCkY5_OLohJRb3ceGrBP-4', function(req, res){
-	res.send('xoc46L9PGKV3nf7EA8xsEwCkY5_OLohJRb3ceGrBP-4.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
+app.get('/.well-known/acme-challenge/FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg', function(req, res){
+	res.send('FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
 });
 
 app.get('/.well-known/acme-challenge/:content', function(req, res){
-	res.send('xoc46L9PGKV3nf7EA8xsEwCkY5_OLohJRb3ceGrBP-4.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
+	res.send('FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
 });
 
 app.post('/contact-form', function (req, res) {
