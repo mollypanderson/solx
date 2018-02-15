@@ -15,6 +15,14 @@ app.get('/', function (req, res) {
     res.sendfile('public/index.html');
 });
 
+app.get('/.well-known/acme-challenge/PfOO5nSpJNSSlrjbvDoYIEz4BhG-jYao-52516wGrqg', function(req, res){
+	res.send('PfOO5nSpJNSSlrjbvDoYIEz4BhG-jYao-52516wGrqg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
+});
+
+app.get('/.well-known/acme-challenge/:content', function(req, res){
+	res.send('PfOO5nSpJNSSlrjbvDoYIEz4BhG-jYao-52516wGrqg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
+});
+
 app.post('/contact-form', function (req, res) {
     const body = req.body; // your request body
 
