@@ -15,8 +15,7 @@ app.get('/', function (req, res) {
     res.sendfile('public/index.html');
 });
 
-app.get('/.well-known/acme-challenge/xoc46L9PGKV3nf7EA8xsEwCkY5_OLohJRb3ceGrBP-4
-', function(req, res){
+app.get('/.well-known/acme-challenge/xoc46L9PGKV3nf7EA8xsEwCkY5_OLohJRb3ceGrBP-4', function(req, res){
 	res.send('xoc46L9PGKV3nf7EA8xsEwCkY5_OLohJRb3ceGrBP-4.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
 });
 
