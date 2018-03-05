@@ -1,8 +1,8 @@
 
 
-* {
-	/*border: 1px solid gray !important;*/
-	}
+/** {
+	border: 1px solid gray !important;
+	}*/
 
 * {
 	font-family: 'Assistant', sans-serif, 'Source Sans Pro', sans-serif;
@@ -306,10 +306,6 @@ a {
 .pgh-heading {
 	font-weight: bold;
 	color: rgb(70,115,2);
-}
-
-.pgh-heading-black {
-	font-weight: bold;
 }
 
 .link:hover {
@@ -764,12 +760,6 @@ input[type=submit]:hover {
 	background-position: 50% 70%;
 }
 
-.faq-coming-soon {
-	margin: auto;
-	text-align: center;
-	padding: 10px;
-}
-
 .incentives-body {
 	max-width: 1100px;
 	margin: auto;
@@ -778,7 +768,7 @@ input[type=submit]:hover {
 
 }
 
-.pgh-heading-centered {
+.benefitting {
 	margin: auto;
 	 text-align: center;
 }
@@ -856,14 +846,6 @@ input[type=submit]:hover {
 	
 }
 
-.about-text {
-	padding-top: 40px;
-}
-
-.incentives-text {
-	padding-top: 30px;
-}
-
 @media screen and (max-width: 766px) {
 
 	.faq-text {
@@ -897,14 +879,6 @@ input[type=submit]:hover {
 
 	.intro-body {
 		font-size: .9em;
-	}
-
-	.about-text {
-	padding-top: 0px;
-	}
-
-	.incentives-text {
-	padding-top: 0px;
 	}
 
 	}
@@ -1009,7 +983,6 @@ input[type=submit]:hover {
 	height: 250px;
 	border-radius: 50%;
 }
-
 
 .service-text {
 	width: 70%;
@@ -1124,7 +1097,7 @@ input[type=submit]:hover {
 
 /*image slideshow*/
 
-.mySlides-three, .mySlides-four, .mySlides-five, .mySlides-six, .mySlides-seven, .mySlides-ten, .mySlides-thirteen {display:none}
+.mySlides-three, .mySlides-four, .mySlides-five, .mySlides-six, .mySlides-seven, .mySlides-ten, .mySlides-thirteen, .mySlides-fourteen, .mySlides-fifteen {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 
@@ -1268,14 +1241,6 @@ input[type=submit]:hover {
 	border-radius: 50%;
 }
 
-.review-image-nine {
-	background-image: url("photos/kent_one-circle.jpg");
-	background-size: cover;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-}
-
 .review-row-left {
 	display: flex;
 	padding-bottom: 20px;
@@ -1325,7 +1290,7 @@ input[type=submit]:hover {
 		flex-wrap: wrap-reverse;
 	}
 
-	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight, .review-image-nine {
+	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight {
 		width: 150px;
 		height: 150px;
 	}
@@ -1572,5 +1537,52 @@ input[type=submit]:hover {
 
 /*end side navbar*/
 
+/*recent projects description hover */
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  max-width: 100%;
+  
+}
+
+.description {
+
+}
+
+.other {
+	width: 100%;
+	
+}
+
+.w3-display-bottommiddle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -100%);
+  -ms-transform: translate(-50%, -100%);
+  text-align: justify;
+  transition: .6s ease;
+}
+
+
+
+.w3-content{max-width:980px;margin:auto; }
+
+.w3-rest{overflow:hidden}
+
+.w3-display-container:hover .w3-display-hover{display:block;}
+
+.w3-display-container:hover span.w3-display-hover{display:inline-block}
+
+.w3-display-hover{display:none}
+
+/* end recent projects description hover*/
 
