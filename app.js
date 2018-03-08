@@ -16,11 +16,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/.well-known/acme-challenge/FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg', function(req, res){
-	res.send('FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
+  res.send('FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
 });
 
 app.get('/.well-known/acme-challenge/:content', function(req, res){
-	res.send('FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
+  res.send('FPlrOxwZRUd2PYUYDQE0Vwo1PQbOPgsNtQbfRwjZQvg.7T1UCRjUn463dnsG6cR1Xrareq39Eqh2tGvxGfn9sXA')
 });
 
 app.post('/contact-form', function (req, res) {
@@ -29,51 +29,51 @@ app.post('/contact-form', function (req, res) {
 
     var nodemailer = require('nodemailer');
 
-	function sendMail()
-	{
-		var nodemailer = require('nodemailer');
+  function sendMail()
+  {
+    var nodemailer = require('nodemailer');
 
-		var transporter = nodemailer.createTransport({
-	    host: process.env.EMAIL_HOST, //Config var stored on heroku
-	    port: 587,
-	    secure: false, // upgrade later with STARTTLS
-	    auth: {
-	        user: process.env.EMAIL_USERNAME, //config vars stored on heroku
-	        pass: process.env.EMAIL_PW
-			}
-		});
+    var transporter = nodemailer.createTransport({
+      host: process.env.EMAIL_HOST, //Config var stored on heroku
+      port: 587,
+      secure: false, // upgrade later with STARTTLS
+      auth: {
+          user: process.env.EMAIL_USERNAME, //config vars stored on heroku
+          pass: process.env.EMAIL_PW
+      }
+    });
 
-		const mailOptions = {
-		  from: 'sammamishsolar@gmail.com', // sender address
-		  to: 'info@solx2.com', // list of receivers
-		  subject: 'SOLX2: New Contact Request from: ' + body.email, // Subject line
-		  html: '<p>Name: ' + body.name + '<br>' +
-		  		'Email: ' + body.email + '<br>'+
-		  		'Phone Number: ' + body.phonenumber + '<br>' +
-		  		'<br>Message: ' + body.comment + '</p>'// plain text body
-		};
+    const mailOptions = {
+      from: 'sammamishsolar@gmail.com', // sender address
+      to: 'info@solx2.com', // list of receivers
+      subject: 'SOLX2: New Contact Request from: ' + body.email, // Subject line
+      html: '<p>Name: ' + body.name + '<br>' +
+          'Email: ' + body.email + '<br>'+
+          'Phone Number: ' + body.phonenumber + '<br>' +
+          '<br>Message: ' + body.comment + '</p>'// plain text body
+    };
 
-		transporter.sendMail(mailOptions, function (err, info) {
-		   if(err)
-		   {
-		   	console.log(err);
-		 	 res.redirect(400,'back');
-		   }
-		     
-		   else
-		   {
-		   	 console.log("SUCCESS");
-		 	 res.redirect(202,'back');
+    transporter.sendMail(mailOptions, function (err, info) {
+       if(err)
+       {
+        console.log(err);
+       res.redirect(400,'back');
+       }
+         
+       else
+       {
+         console.log("SUCCESS");
+       res.redirect(202,'back');
 
 
-		   }
+       }
 
-		   
-		});
-		}
+       
+    });
+    }
 
-		sendMail();
-	});
+    sendMail();
+  });
 
 /* 3, 2, 1, Launch ! */
 app.listen(process.env.PORT || 3000, function() {
