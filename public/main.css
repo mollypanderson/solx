@@ -690,6 +690,11 @@ input[type=submit]:hover {
 	}
 }
 
+@media screen and (max-width: 415px) { 
+
+
+}
+
 /* about page */
 
 .header-container-about {
@@ -1241,6 +1246,22 @@ input[type=submit]:hover {
 	border-radius: 50%;
 }
 
+.review-image-nine {
+	background-image: url("photos/greenlake-one.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-ten {
+	background-image: url("photos/greenlake-two.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
 .review-row-left {
 	display: flex;
 	padding-bottom: 20px;
@@ -1290,7 +1311,7 @@ input[type=submit]:hover {
 		flex-wrap: wrap-reverse;
 	}
 
-	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight {
+	.review-image-one, .review-image-two, .review-image-three, .review-image-four, .review-image-five, .review-image-six, .review-image-seven, .review-image-eight, .review-image-nine, .review-image-ten {
 		width: 150px;
 		height: 150px;
 	}
@@ -1570,6 +1591,7 @@ input[type=submit]:hover {
   -ms-transform: translate(-50%, -100%);
   text-align: justify;
   transition: .6s ease;
+
 }
 
 
@@ -1583,6 +1605,8 @@ input[type=submit]:hover {
 .w3-display-container:hover span.w3-display-hover{display:inline-block}
 
 .w3-display-hover{display:none}
+
+
 
 /* end recent projects description hover*/
 
