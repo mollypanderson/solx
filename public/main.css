@@ -1610,3 +1610,10 @@ input[type=submit]:hover {
 
 /* end recent projects description hover*/
 
+@media screen and (max-width: 450px) {
+	.w3-display-container:hover .w3-display-hover {
+	display:none;	
+}
+
+}
+
