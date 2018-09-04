@@ -35,7 +35,7 @@ app.post('/contact-form', function (req, res) {
 
     var transporter = nodemailer.createTransport({
       host: process.env.EMAIL_HOST, //Config var stored on heroku
-      port: 587,
+      port: 465,
       secure: false, // upgrade later with STARTTLS
       auth: {
           user: process.env.EMAIL_USERNAME, //config vars stored on heroku
