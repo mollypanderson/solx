@@ -44,7 +44,7 @@ app.post('/contact-form', function (req, res) {
     });
 
     const mailOptions = {
-      from: 'steve@solx2.com', // sender address
+      from: 'sammamishsolar@gmail.com', // sender address
       to: 'info@solx2.com', // list of receivers
       subject: 'SOLX2: New Contact Request from: ' + body.email, // Subject line
       html: '<p>Name: ' + body.name + '<br>' +
