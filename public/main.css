@@ -1107,7 +1107,7 @@ input[type=submit]:hover {
 
 /*image slideshow*/
 
-.mySlides-three, .mySlides-four, .mySlides-five, .mySlides-six, .mySlides-seven, .mySlides-ten, .mySlides-thirteen, .mySlides-fourteen, .mySlides-fifteen {display:none}
+.mySlides-three, .mySlides-four, .mySlides-five, .mySlides-six, .mySlides-seven, .mySlides-ten, .mySlides-thirteen, .mySlides-fourteen, .mySlides-fifteen, .mySlides-sixteen, .mySlides-seventeen, .mySlides-nineteen, .mySlides-twenty, .mySlides-twentyone {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 
@@ -1184,6 +1184,22 @@ input[type=submit]:hover {
 	padding-right: 20px;
 	padding-bottom: 20px;
 	margin: auto;
+}
+
+.review-image-kirkland {
+	background-image: url("photos/kirkland-three-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.review-image-kirkland-two {
+	background-image: url("photos/kirkland-one-cropped.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 
 .review-image-one {
