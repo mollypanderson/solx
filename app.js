@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
-var sslRedirect = require('heroku-ssl-redirect');
 const app = express();
 var path = require("path");
 
@@ -10,7 +9,6 @@ app.use(express.static('public'));
 app.use('/public', express.static(__dirname + "/public"));
 app.use('/photos',express.static(path.join(__dirname, 'public/photos')));
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(sslRedirect());
 
 /* Routes */
 app.get('/', function (req, res) {
