@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-var http = require("http");
-http.get("http://solx2.herokuapp.com/");
+var https = require("https");
+https.get("https://solx2.herokuapp.com/");
