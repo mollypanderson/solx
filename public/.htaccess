@@ -1,4 +1,4 @@
 ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://sammamishsolar.com%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ https://sammamishsolar.com [L,R=301]
