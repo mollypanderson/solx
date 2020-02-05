@@ -1,8 +1,19 @@
+'use strict';
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
 var path = require("path");
+
+/* https redirect */
+app.use('/', require('redirect-https')({
+    port: 443,
+    body: '<!-- Please use HTTPS instead -->',
+    trustProxy: true,
+    browsers: 301,
+    apis: 'meta'
+}));
 
 /* Middlewares */
 app.use(express.static('public'));
