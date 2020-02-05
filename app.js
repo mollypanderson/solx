@@ -1,12 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
-var sslRedirect = require('heroku-ssl-redirect');
 const app = express();
 var path = require("path");
-
-/* enable ssl redirect */
-app.use(sslRedirect());
 
 /* Middlewares */
 app.use(express.static('public'));
