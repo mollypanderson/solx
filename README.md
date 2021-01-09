@@ -7,3 +7,7 @@ This is the source code for SolX's website. SolX is a local solar installation c
 * **Back end**: uses a node.js stack with express and nodemailer. 
 
 *Made in collaboration with @nguyenmdan*
+
+# Deployment process
+1. Push local changes to git master branch: ``git push -u origin master``
+2. Deploy to Heroku: ``git push heroku master``
