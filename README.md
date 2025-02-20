@@ -20,7 +20,7 @@ Desktop view:
 
 Mobile view: 
 
-![_Users_mollypaget_programming_programming-portfolio_solx-dev_sammamishsolar-final_solx_public_index html](https://github.com/user-attachments/assets/cc72c9bc-219a-4541-8895-e11bafb9ac66)
+![_Users_mollypaget_programming_programming-portfolio_solx-dev_sammamishsolar-final_solx_public_index html](https://github.com/user-attachments/assets/5dcc463f-a7d7-4e6a-ac6c-ec996a729978)
 
 <br /> 
 
